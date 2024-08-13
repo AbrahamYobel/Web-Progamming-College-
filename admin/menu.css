@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+li{
+    padding: 0;
+}
+
+li:hover{
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+header .logo{
+    margin: 10px 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50% ;
+    border: 2px solid black;
+}
+
+header .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .link ul{
+    display: flex;
+    list-style-type: none;
+}
+
+main{
+    padding-top: 100px;
+}
+
+header .link ul li{
+    padding: 0px 35px;
+}
+
+main .hero-picture img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+main .hero-picture{
+    margin: 10px;
+}
+
+main .berita{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .news-01 .news-img{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+main .news-01 .news-caption{
+    width: 300px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+main .news-01 .news-img img{
+    width: 300px;
+    height: 150px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    margin: 100px;
+}
+
+.text{
+    margin:10px 100px;
+    text-align: justify;
+}
+
+.text p{
+    text-indent: 50px;
+}
+
+.footer{
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #0000FF;
+}
+.footer .footer-content{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    height: 200px;
+}
+
+.footer .footer-content div{
+    margin: 10px;
+    width: 500px;   
+    height: 180px;
+}
+
+.location p{
+    text-align: justify;
+}
+
+.sosmed{
+    text-align: right;
+}
+
+.sosmed p{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
